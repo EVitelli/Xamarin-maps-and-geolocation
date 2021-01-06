@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_maps_and_geolocation.MainPage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             >
+    <StackLayout
+        Padding="10"
+        Spacing="10"
+        >
+        <maps:Map 
+            x:Name="mapa"
+            VerticalOptions="FillAndExpand"
+            />
+        <Button
+            Text="Localizar"
+            Clicked="Button_Clicked"
+            />
+    </StackLayout>
+
+</ContentPage>
